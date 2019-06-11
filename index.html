@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>e-bill | Perpule</title>
+  </head>
+
+<body>
+
+<div class="container">
+
+
+ <div class="top">
+  <div class="row">
+    <div class="col-sm-10">
+      <img src="perpule_logo.png">
+    </div>
+
+    <div class="col-sm-2">
+     <div class="invoicedownload">
+      <div class="download"> <a href="#" role="button"   class="btn"><i class="fa fa-download" style="padding-right: 10px"></i>INVOICE</a></div>
+     </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="billinfo1">
+  <div class="billinfo2">
+   <div class="billinfo3 topbillinfo">DATE</div>
+   <div class="billinfo3 bottombillinfo">27 MAY 2019 | 13:04</div>
+  </div>
+
+  <div class="billinfo2"> 
+    <div class="billinfo3 topbillinfo">ORDER ID</div>
+    <div class="billinfo3 bottombillinfo">89564214521</div>
+  </div>
+
+  <div class="billinfo2"> 
+    <div class="billinfo3 topbillinfo">ITEMS</div>
+    <div class="billinfo3 bottombillinfo">2</div>  
+   </div>
+
+  <div class="billinfo2"> 
+    <div class="billinfo3 topbillinfo">INVOICE AMOUNT</div>
+    <div class="billinfo3 bottombillinfo">₹ 5600</div> 
+  </div>
+  
+
+
+</div>
+
+  <br>
+
+  <div class="table-responsive">
+  <table class="table table-hover table-bordered table-striped ">
+    <thead>
+      <tr>
+        <th>ITEM DESCRIPTION</th>
+        <th>UNIT PRICE</th>
+        <th>QUANTITY</th>
+        <th>TOTAL PRICE</th>
+      </tr>
+    </thead>
+    <thead>
+    	<tr>
+        <th>FRUITS</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.The Seasonal Fruit Torte</td>
+        <td>₹ 1800</td>
+        <td>1</td>
+        <td>₹ 1800</td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th>GROCERIES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2. Olive Oil 5ltr</td>
+        <td>₹ 3600</td>
+        <td>1</td>
+        <td>₹ 3600</td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th>TOTAL</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>₹ 5400</td>
+      </tr>
+    </tbody>
+
+  </table>
+  </div>
+
+
+<div class="row">
+    <div class="col-md-6 col-sm-12 barchart">
+         <div class="graph" id="chart"></div>
+    </div>
+
+    <div class="col-md-6 col-sm-12">
+      <div class="wrapper">
+	       <div class="header">AWESOME!</div>
+	       <div class="footer">
+              <div class="col-sm-3 footer1">
+                YOU HAVE <br> SAVED
+              </div>
+              <div class="col-sm-3 footer2">
+                ₹ 500
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- 
+
+ <div class="chartofferhead">
+  <div class="chartofferbody1">Bar Chart</div>
+   <div class="chartofferbody2">
+      <div class="awesome">AWESOME!</div>
+      <div class="offeramount">
+        <div class="saved">YOU HAVE<br>SAVED</div>
+        <div class="amount">₹ 500</div>
+      </div>
+   </div>
+
+
+ -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="graphite.js"></script>
+  <script src="main.js"></script>
+
+
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  </body>
+</html>

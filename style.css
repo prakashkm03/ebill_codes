@@ -1,0 +1,292 @@
+.billinfo {
+	display: flex;
+	border-radius: 8px;
+	color: black;
+	background-color: #453b6d;
+	padding: 10px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: auto;
+	margin: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.billinfo>div {
+    flex: 1 1 25%;
+}
+
+.itemHeader {
+	border-radius: 8px;
+	color: lightgrey;
+	padding: 10px;
+	font-size: 10px;
+}
+.itemBody {
+	border-radius: 8px;
+	color: #ffffff;
+	font-weight: bolder;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.table{
+	border-radius: 50px;
+	font-size: 15px;
+}
+
+.wrapper {
+ ;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 50px;
+  flex: 1 100%;
+}
+
+.header {
+  color: #75dac9;
+  font-size: 30px;
+  background-color: #1f7879;
+  padding: 50px;
+  height: 150px;
+}
+
+.footer {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #31bdbe;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+
+}
+
+.footer1 {
+  font-size: 12px;
+  font-weight: thin;
+  padding: 12px;
+  text-align: right;
+
+}
+
+.footer2 {
+  font-size: 30px;
+
+}
+
+body {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.barchart{
+  background-color: #31bdbe;
+  background-clip: content-box;
+}
+
+.btn{
+  background-color:#31bdbe;
+  color: #ffffff;
+  font-size: 10px; 
+}
+
+
+.billinfo1{
+ display: flex;
+ border-radius: 8px;
+ background-color: #453b6d;
+ justify-content: space-between;
+ padding: 10px;
+
+
+}
+
+
+.billinfo2{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.billinfo3{
+  display: flex;
+  padding: 5px;
+}
+
+.topbillinfo{
+  font-size: 10px;
+  color: lightgrey;
+
+
+}
+
+.bottombillinfo{
+  font-size: 18px;
+  color: white;
+}
+
+.invoicedownload{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-clip: content-box;
+  box-sizing: border-box;
+}
+
+.invoice{
+  padding: 5px;
+  font-size: 20px;
+  color:#ecebf0;
+}
+.download{
+  padding: 2px;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+.billinfo1{
+ display: flex;
+ border-radius: 8px;
+ background-color: #453b6d;
+ justify-content: space-between;
+ padding: 10px;
+ flex-direction: column;
+
+
+}
+
+
+.billinfo2{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.billinfo3{
+  display: flex;
+  padding: 5px;
+}
+
+.topbillinfo{
+  font-size: 10px;
+  color: lightgrey;
+
+
+}
+
+.bottombillinfo{
+  font-size: 18px;
+  color: white;
+
+}
+
+
+
+.offerbody {
+ ;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.offerbody > * {
+  padding: 50px;
+  flex: 1 100%;
+}
+
+
+.barchart{
+  background-color: #31bdbe;
+  background-clip: content-box;
+  padding: 20px;
+}
+
+.footer2 {
+  font-size: 25px;
+
+}
+
+.footer1 {
+  font-size: 12px;
+  font-weight: thin;
+  padding: 8px;
+  text-align: right;
+
+}
+
+.invoicedownload{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-clip: content-box;
+  box-sizing: border-box;
+}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}
+
+.chartofferhead
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+
+}
+
+.chartofferbody1
+{
+  background-color: #31bdbe;
+
+}
+
+.chartofferbody2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+.awesome{
+  background-color: #1f7879;
+
+}
+
+.offeramount{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #31bdbe;
+
+}
+
+.saved{
+  font-size: 12px;
+
+}
+
+.amount{
+  font-size: 40px;
+
+}
