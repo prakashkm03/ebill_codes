@@ -147,6 +147,11 @@ body {
 .download{
   padding: 2px;
 }
+.row-new {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -229,9 +234,6 @@ body {
   background-clip: content-box;
   box-sizing: border-box;
 }
-
-
-
 
 
 }
